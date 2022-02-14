@@ -1,9 +1,9 @@
 import React from "react";
-import Header  from "./Header";
+import Header from "./Header";
 import TicketControl from "./TicketControl";
 
 function App(){
-  return (
+  return ( 
     <React.Fragment>
       <Header />
       <TicketControl />
@@ -11,4 +11,4 @@ function App(){
   );
 }
 
-export default App;
+export default App
